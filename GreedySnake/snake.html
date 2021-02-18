@@ -1,0 +1,60 @@
+<!--
+ * @Email: nicexch@126.com
+ * @Author: 汐潮
+ * @Date: 2021-01-21 15:16:16
+ * @LastEditors: 汐潮
+ * @LastEditTime: 2021-01-21 17:05:25
+-->
+<!--
+ * @Author: 汐潮
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>snake</title>
+
+  <style type="text/css">
+    .wrap {
+      width: 500px;
+      height: 500px;
+      margin: 50px auto;
+      background-color: #000;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .round {
+      display: inline-block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: lightgreen;
+    }
+
+    .round.head {
+      background-color: yellow;
+    }
+
+    .food {
+      display: inline-block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: tomato;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="wrap"></div>
+  <script src="./snake.js"></script>
+</body>
+
+</html>

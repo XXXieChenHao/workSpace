@@ -1,0 +1,44 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-01-21 10:28:07
+ * @LastEditTime: 2021-01-21 10:32:05
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \GreedySnake\documentFragment.html
+-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <ul>
+  </ul>
+</body>
+
+<script>
+  var ul = document.getElementsByTagName('ul')[0],
+    frag = document.createDocumentFragment();
+
+  // for (var i = 0; i < 10; i++) {
+  //   var li = document.createElement('li')
+  //   li.innerHTML = '123'
+  //   ul.appendChild(li)
+  // }
+
+  // 减少 dom 结构重新渲染的操作
+  for (var i = 0; i < 10; i++) {
+    var li = document.createElement('li')
+    li.innerHTML = '123'
+    frag.appendChild(li)
+  }
+  // 创建一个与 dom 无关的容器，等循环结束以后，再将容器交给 dom
+  // dom 节点只改变一次
+  ul.appendChild(frag)
+</script>
+
+</html> -->

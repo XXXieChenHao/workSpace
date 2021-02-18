@@ -1,0 +1,49 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-01-21 09:27:03
+ * @LastEditTime: 2021-01-21 15:22:36
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \GreedySnake\key.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="box"></div>
+</body>
+<script>
+  // keyDown 没有charCode 只有keyCode键盘顺位码
+  // keypress 有charCode 
+
+  // 不抬起按键，连续触发
+  // document.onkeydown = function (e) {
+  //   console.log('keydown')
+  // }
+  // document.onkeyup = function () {
+  //   console.log('onkeyup')
+  // }
+
+  // 只触发字符类  但上下左右 tab shift等无效
+  // document.onkeypress = function (e) {
+  //   console.log('onkeypress')
+  // }
+
+  // document.onkeypress = function (e) {
+  //   var str = String.fromCharCode(e.charCode)
+  //   console.log(str)
+  // }
+
+  // String.fromCharCode
+  // function String() { }
+
+  // String.fromCharCode = function () { }
+</script>
+
+</html>
